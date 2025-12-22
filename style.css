@@ -549,7 +549,7 @@ img {
 .habilidades-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 40px;
+    gap: 10px;
     justify-items: center;
 }
 
@@ -729,7 +729,7 @@ img {
 .footer-links {
     display: flex;
     justify-self: center;
-    column-gap: 5rem;
+    column-gap: 3rem;
     text-decoration: none;
     list-style: none;
     color: hsl(242, 8%, 95%);
@@ -742,7 +742,7 @@ img {
 .footer-social-links {
     display: flex;
     justify-content: center;
-    gap: 60px;
+    gap: 30px;
     color: hsl(242, 8%, 95%);
 }
 
