@@ -1,322 +1,425 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gustavo Barbosa | Portfólio</title>
+    <title>Portfólio - Gustavo Barbosa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-    <!-- MENU DE NAVEGAÇÃO -->
 
-    <section class="navegacao" id="navegacao">
-        <nav class="nav">
-            <div class="menu-logo">
-                <a href="#" class="menu-logo-texto">G</a>
+<!-- CURSOR PERSONALIZADO -->
+<div class="cursor" id="cursor"></div>
+<div class="anel-cursor" id="cursorRing"></div>
+<div class="scroll-line" id="scrollLine"></div>
+
+
+<!-- MENU -->
+<nav id="navbar">
+    <div class="logo">G<span>.</span>B<span>.</span></div>
+    <ul class="nav-links">
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+    </ul>
+</nav>
+
+
+<!-- INÍCIO -->
+<section id="inicio">
+    <div class="inicio-bg"></div>
+    <div class="grade-inicio">
+        <div class="inicio-esquerdo">
+            <div class="inicio-tag">
+                <span class="ponto"></span>
+                Disponível para projetos
             </div>
-
-            <div class="nav-menu">
-                <div class="menu">
-                    <ul class="menu-lista">
-                        <li class="menu-item">
-                            <a href="#inicio" class="menu-link">Início</a>
-                        </li>
-
-                        <li class="menu-item">
-                            <a href="#sobre" class="menu-link">Sobre</a>
-                        </li>
-
-                        <li class="menu-item">
-                            <a href="#habilidades" class="menu-link">Habilidades</a>
-                        </li>
-
-                        <li class="menu-item">
-                            <a href="#projetos" class="menu-link">Projetos</a>
-                        </li>
-
-                        <li class="menu-item">
-                            <a href="#contatos" class="menu-link">Contatos</a>
-                        </li>
-                    </ul>
-                </div>
+            <h1 class="inicio-nome">
+                Gustavo
+                <span class="linha2">Barbosa</span>
+            </h1>
+            <div class="inicio-btn-projeto">
+                <a href="#projetos" class="btn-primeiro">
+                    Ver Projetos <i class="fas fa-arrow-right"></i>
+                </a>
+                <a href="curriculo/Gustavo Barbosa - Currículo.pdf" download class="btn-cv">
+                    <i class="fas fa-download"></i> Baixar CV
+                </a>
             </div>
-        </nav>
-    </section>
-
-
-    <!-- INÍCIO -->
-
-    <main>
-        <div class="inicio-bloco">
-            <div class="foto-inicio">
-
-                <div class="inicio-container container">
-
-                    <section class="inicio" id="inicio">
-
-                        <div>
-                            <h1 class="titulo-inicio">Gustavo Barbosa</h1>
-                            <h3 class="subtitulo-inicio">Front End Developer</h3>
-                            <a href="#sobre" class="botao-inicial">
-                                Mais sobre mim!
-                            </a>
-                        </div>
-
-                        <div class="meu-info">
-
-                            <div class="info-item">
-                                <div class="item-social-links">
-                                    <a href="https://www.linkedin.com/in/gustavo-barbosa-436b25351" target="_blank">
-                                        <img src="icones/linkedin.svg" alt="LinkedIn">
-                                    </a>
-                                </div>
-                            </div>
-
-                            <div class="info-item">
-                                <div class="item-social-links">
-                                    <a href="https://github.com/gustavob63" target="_blank">
-                                        <img src="icones/github.svg" alt="GitHub">
-                                    </a>
-                                </div>
-                            </div>
-
-                            <div class="info-item">
-                                <div class="item-social-links">
-                                    <a href="https://www.instagram.com/gustavvb_/" target="_blank">
-                                        <img src="icones/instagram.svg" alt="Instagram">
-                                    </a>
-                                </div>
-                            </div>
-
-                            <div class="info-item">
-                                <div class="item-social-links">
-                                    <a href="mailto:gustavobs071@gmail.com?subject=Contato%20Portfólio" target="_blank">
-                                        <img src="icones/e-mail.png" alt="Email">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
+            <div class="inicio-social">
+                <a href="https://www.linkedin.com/in/gustavo-barbosa-436b25351" target="_blank" title="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/gustavob63" target="_blank" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="mailto:gustavobs071@gmail.com?subject=Contato%20Portfólio" title="E-mail">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+        <div class="foto">
+            <div class="foto-posicao">
+                <div class="foto-conteiner">
+                    <img src="img/" alt="Gustavo Barbosa">
                 </div>
             </div>
         </div>
-        </section>
+    </div>
+</section>
 
-        <!-- SOBRE -->
 
-        <section class="section" id="sobre">
-            <h2 class="section-titulo" data-heading="Minha Introdução">Sobre mim</h2>
-
-            <div class="sobre-container container">
-
-                <div class="sobre-caixa">
-                    <h3 class="sobre-texto-apresentacao">Olá, meu nome é Gustavo Barbosa</h3>
-                    <p class="sobre-descricao">Estou <b>Cursando o 2º semestre de Análise e Desenvolvimento de Sistemas
-                            no Uniceub</b>, busco aprimorar constantemente minhas habilidades técnicas. Possuo
-                        conhecimento em <b>Lógica de Programação</b> e <b>Desenvolvimento Web</b> (HTML, CSS e
-                        JavaScript), além de experiência com <b>MySQL</b> para Banco de Dados. Tenho contato com
-                        <b>Python</b> e <b>Java</b> (iniciante), e sou proficiente no uso do <b>Pacote Office</b> e
-                        <b>Google Workspace</b>. Minha facilidade em aprender novas tecnologias, aliada ao <b>raciocínio
-                            lógico</b> e à <b>proatividade</b>, me permite atuar com foco total na qualidade e nos
-                        resultados.
-                    </p>
-
-                    <a href="#contatos" class="botao-sobre primeiro-botao">Entre em contato</a>
-                    <a href="curriculo/Gustavo Barbosa - Currículo.pdf" download="Gustavo Barbosa - Currículo.pdf"
-                        class="botao-sobre segundo-botao">Download CV</a>
+<!-- SOBRE -->
+<section id="sobre">
+    <div class="conteiner">
+        <div class="sobre-grid">
+            <div class="sobre-text fade-up">
+                <div class="section-label">Sobre mim</div>
+                <h2 class="section-title">Quem sou<br>eu?</h2>
+                <br>
+                <p>
+                    <span>Sou de Brasília, DF, tenho 19 anos e estou no 3º semestre de Análise e Desenvolvimento de Sistemas no UniCEUB.
+                </p>
+                <p>
+                    <span>Busco aprimorar constantemente minhas habilidades em desenvolvimento web, banco de dados e programação. Tenho experiência com HTML, CSS, JavaScript, SQL e Power BI, além de contato com Python.</span>
+                </p>
+                <p>
+                    <span>Sou proficiente no Pacote Office e Google Workspace, com foco em entregar soluções que unem funcionalidade e design.</span>
+                </p>
+                <br>
+                <a href="curriculo/Gustavo Barbosa - Currículo.pdf" download class="btn-primeiro" style="width:fit-content">
+                    <i class="fas fa-download"></i> Download CV
+                </a>
+            </div>
+            <div class="stats-grid fade-up">
+                <div class="stat-card">
+                    <span class="stat-num">3º</span>
+                    <div class="stat-label">Semestre em ADS</div>
                 </div>
-
-                <div class="dados-grid">
-
-                    <div class="dado-item">
-                        <span class="dado-icone"><i class="fa-solid fa-briefcase"></i></span>
-                        <div class="dado-conteudo-wrapper">
-                            <span class="dado-titulo">EXPERIÊNCIA</span>
-                            <span class="dado-conteudo">Iniciante</span>
-                        </div>
-                    </div>
-
-                    <div class="dado-item">
-                        <span class="dado-icone"><i class="fa-solid fa-graduation-cap"></i></span>
-                        <div class="dado-conteudo-wrapper">
-                            <span class="dado-titulo">FORMAÇÃO</span>
-                            <span class="dado-conteudo">Análise e Desenvolvimento de Sistemas</span>
-                        </div>
-                    </div>
-
-                    <div class="dado-item">
-                        <span class="dado-icone"><i class="fa-solid fa-location-dot"></i></span>
-                        <div class="dado-conteudo-wrapper">
-                            <span class="dado-titulo">LOCALIZAÇÃO</span>
-                            <span class="dado-conteudo">Brasília, DF</span>
-                        </div>
-                    </div>
-
-                    <div class="dado-item">
-                        <span class="dado-icone"><i class="fa-solid fa-envelope"></i></span>
-                        <div class="dado-conteudo-wrapper">
-                            <span class="dado-titulo">EMAIL</span>
-                            <span class="dado-conteudo">gustavobs071@gmail.com</span>
-                        </div>
-                    </div>
-
-                    <div class="dado-item">
-                        <span class="dado-icone"><i class="fa-solid fa-phone"></i></span>
-                        <div class="dado-conteudo-wrapper">
-                            <span class="dado-titulo">TELEFONE</span>
-                            <span class="dado-conteudo">+55 61 99825-4253</span>
-                        </div>
-                    </div>
-
-                    <div class="dado-item">
-                        <span class="dado-icone"><i class="fa-solid fa-circle-check"></i></span>
-                        <div class="dado-conteudo-wrapper">
-                            <span class="dado-titulo">DISPONIBILIDADE</span>
-                            <span class="dado-conteudo">Aberto para trabalhar</span>
-                        </div>
-                    </div>
-
+                <div class="stat-card">
+                    <span class="stat-num">5+</span>
+                    <div class="stat-label">Tecnologias</div>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-num">BSB</span>
+                    <div class="stat-label">Brasília, DF</div>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-num">100%</span>
+                    <div class="stat-label">Comprometido</div>
                 </div>
             </div>
-        </section>
+        </div>
+    </div>
+</section>
 
 
-        <!-- HABILIDADES -->
+<!-- HABILIDADES -->
+<section id="habilidades">
+    <div class="container">
+        <div class="fade-up" style="text-align:center; margin-bottom: 0;">
+            <div class="section-label" style="justify-content:center;">Skills</div>
+            <h2 class="section-title">Minhas Habilidades</h2>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-card fade-up">
+                <div class="skill-icon">
+                    <img src="img/html5.png" alt="HTML5">
+                </div>
+                <div class="skill-info">
+                    <h3>HTML5</h3>
+                    <span>Marcação semântica</span>
+                </div>
+                <div class="skill-level">
+                    <div class="dot-level filled"></div>
+                    <div class="dot-level filled"></div>
+                    <div class="dot-level filled"></div>
+                    <div class="dot-level filled"></div>
+                    <div class="dot-level"></div>
+                </div>
+            </div>
+            <div class="skill-card fade-up">
+                <div class="skill-icon">
+                    <img src="img/css.png" alt="CSS3">
+                </div>
+                <div class="skill-info">
+                    <h3>CSS3</h3>
+                    <span>Estilização & layouts</span>
+                </div>
+                <div class="skill-level">
+                    <div class="dot-level filled"></div>
+                    <div class="dot-level filled"></div>
+                    <div class="dot-level filled"></div>
+                    <div class="dot-level filled"></div>
+                    <div class="dot-level"></div>
+                </div>
+            </div>
+            <div class="skill-card fade-up">
+                <div class="skill-icon">
+                    <img src="img/javascript.png" alt="JavaScript">
+                </div>
+                <div class="skill-info">
+                    <h3>JavaScript</h3>
+                    <span>Interatividade & lógica</span>
+                </div>
+                <div class="skill-level">
+                    <div class="dot-level filled"></div>
+                    <div class="dot-level filled"></div>
+                    <div class="dot-level filled"></div>
+                    <div class="dot-level"></div>
+                    <div class="dot-level"></div>
+                </div>
+            </div>
+            <div class="skill-card fade-up">
+                <div class="skill-icon">
+                    <img src="img/python.png" alt="Python">
+                </div>
+                <div class="skill-info">
+                    <h3>Python</h3>
+                    <span>Iniciante</span>
+                </div>
+                <div class="skill-level">
+                    <div class="dot-level filled"></div>
+                    <div class="dot-level filled"></div>
+                    <div class="dot-level"></div>
+                    <div class="dot-level"></div>
+                    <div class="dot-level"></div>
+                </div>
+            </div>
+            <div class="skill-card fade-up">
+                <div class="skill-icon">
+                    <img src="img/sql.png" alt="SQL">
+                </div>
+                <div class="skill-info">
+                    <h3>SQL</h3>
+                    <span>Banco de dados</span>
+                </div>
+                <div class="skill-level">
+                    <div class="dot-level filled"></div>
+                    <div class="dot-level filled"></div>
+                    <div class="dot-level filled"></div>
+                    <div class="dot-level"></div>
+                    <div class="dot-level"></div>
+                </div>
+            </div>
+            <div class="skill-card fade-up">
+                <div class="skill-icon">
+                    <img src="img/powerbi.png" alt="Power BI">
+                </div>
+                <div class="skill-info">
+                    <h3>Power BI</h3>
+                    <span>Análise de dados</span>
+                </div>
+                <div class="skill-level">
+                    <div class="dot-level filled"></div>
+                    <div class="dot-level filled"></div>
+                    <div class="dot-level filled"></div>
+                    <div class="dot-level"></div>
+                    <div class="dot-level"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
-        <section class="section" id="habilidades">
-            <h2 class="section-titulo" data-heading="Minhas Habilidadess">Minha Experiência</h2>
 
-            <div class="container grade">
-                <div class="habilidades-container">
-                    <div class="habilidade">
-                        <img src="img/html5.png" alt="icone-html">
-                        <p>HTML</p>
+<!-- PROJETOS -->
+<section id="projetos">
+    <div class="container">
+        <div class="fade-up" style="text-align:center;">
+            <div class="section-label" style="justify-content:center;">Portfólio</div>
+            <h2 class="section-title">Projetos</h2>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card fade-up">
+                <div class="project-img-wrapper">
+                    <img src="img/gremio_digital.png" alt="Grêmio Digital" class="project-img">
+                    <span class="project-badge">Em desenvolvimento</span>
+                </div>
+                <div class="project-body">
+                    <h3>Grêmio Digital</h3>
+                    <p>Plataforma digital para os Grêmios Estudantis das escolas públicas, facilitando a comunicação e organização dos estudantes.</p>
+                    <div class="project-tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">SQL</span>
                     </div>
-                    <div class="habilidade">
-                        <img src="img/css.png" alt="icone-css">
-                        <p>CSS</p>
-                    </div>
-                    <div class="habilidade">
-                        <img src="img/javascript.png" alt="icone-javascript">
-                        <p>JavaScript</p>
-                    </div>
-                    <div class="habilidade">
-                        <img src="img/python.png" alt="icone-python">
-                        <p>Python</p>
-                    </div>
-                    <div class="habilidade">
-                        <img src="img/sql.png" alt="icone-sql">
-                        <p>SQL</p>
-                    </div>
-                    <div class="habilidade">
-                        <img src="img/powerbi.png" alt="icone-powerbi">
-                        <p>Power BI</p>
+                    <div class="project-links">
+                        <a href="https://github.com/Jhovannyz/Projeto-Integrador-I" class="project-link">
+                            <i class="fab fa-github"></i> Repositório
+                        </a>
                     </div>
                 </div>
             </div>
+            <!-- Placeholder card para próximos projetos -->
+            <div class="project-card fade-up" style="border-style: dashed; display:flex; align-items:center; justify-content:center; min-height: 300px;">
+                <div style="text-align:center; color: var(--muted); padding: 40px;">
+                    <i class="fas fa-plus" style="font-size:2rem; color: var(--border); margin-bottom: 16px; display:block;"></i>
+                    <p style="font-size:0.9rem;">Próximo projeto<br>em breve...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- CONTATO -->
+<section id="contato">
+    <div class="container">
+        <div class="contato-grid">
+            <div class="contato-info fade-up">
+                <div class="section-label">Contato</div>
+                <h2 class="section-title">Vamos<br>conversar?</h2>
+                <p></p>
+
+                <div class="contato-item">
+                    <div class="contato-item-icon"><i class="fab fa-whatsapp"></i></div>
+                    <div class="contato-item-text">
+                        <span>WhatsApp</span>
+                        <a href="https://wa.me/5561998254253" target="_blank">+55 (61) 99825-4253</a>
+                    </div>
+                </div>
+                <div class="contato-item">
+                    <div class="contato-item-icon"><i class="fas fa-envelope"></i></div>
+                    <div class="contato-item-text">
+                        <span>E-mail</span>
+                        <a href="mailto:gustavobs071@gmail.com">gustavobs071@gmail.com</a>
+                    </div>
+                </div>
+                <div class="contato-item">
+                    <div class="contato-item-icon"><i class="fab fa-linkedin-in"></i></div>
+                    <div class="contato-item-text">
+                        <span>LinkedIn</span>
+                        <a href="https://www.linkedin.com/in/gustavo-barbosa-436b25351" target="_blank">Gustavo Barbosa</a>
+                    </div>
+                </div>
+                <div class="contato-item">
+                    <div class="contato-item-icon"><i class="fas fa-map-marker-alt"></i></div>
+                    <div class="contato-item-text">
+                        <span>Localização</span>
+                        <p>Brasília, Distrito Federal</p>
+                    </div>
+                </div>
             </div>
 
-            <!-- PROJETOS -->
-
-            <section class="section" id="projetos">
-                <h2 class="section-titulo" data-heading="Meus Trabalhos">Projetos</h2>
-
-                <div class="projeto-container container grade">
-                    <div class="projeto-card">
-                        <a href="https://gametech-gustavob.netlify.app/">
-                            <img src="img/projeto1.png" alt="Projeto 1" class="projeto-img">
-                        </a>
-                        <h3 class="projeto-titulo">GameTECH - Jogos Digitais</h3>
-                    </div>
+            <div class="fade-up">
+                <div class="form-group">
+                    <label class="form-label">Nome</label>
+                    <input type="text" class="form-input" id="nome" placeholder="Seu nome completo">
                 </div>
+                <div class="form-group">
+                    <label class="form-label">Mensagem</label>
+                    <textarea class="form-input" id="mensagem" placeholder="Olá Gustavo, gostaria de..."></textarea>
                 </div>
-            </section>
+                <button class="btn-primeiro" onclick="enviarWhats()" style="width:100%; justify-content:center; border:none; cursor:none;">
+                    <i class="fab fa-whatsapp"></i> Enviar via WhatsApp
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
 
 
-            <!-- WHATSAPP -->
+<!-- FOOTER -->
+<footer>
+    <div class="footer-logo">G<span>.</span>Barbosa</div>
+    <p>© 2026 Gustavo Barbosa</p>
+    <div class="footer-links">
+        <a href="https://www.linkedin.com/in/gustavo-barbosa-436b25351" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/gustavob63" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="mailto:gustavobs071@gmail.com"><i class="fas fa-envelope"></i></a>
+    </div>
+</footer>
 
-            <section class="section" id="contatos">
-                <h2 class="section-titulo" data-heading="Entre em contato">Meu Whatsapp</h2>
 
-                <form class="formulario-contato" id="formulario" onsubmit="enviarWhats(event)">
-                    <div class="grupo-form">
-                        <input placeholder="Nome" class="campo-form" id="nome">
-                    </div>
-                    <div class="grupo-form">
-                        <textarea placeholder="Digite sua Mensagem..." class="campo-form" rows="8"
-                            id="mensagem"></textarea>
-                    </div>
+<script>
+    // Custom Cursor
+    const cursor = document.getElementById('cursor');
+    const ring = document.getElementById('cursorRing');
+    let mx = 0, my = 0, rx = 0, ry = 0;
 
-                    <button type="submit" class="botao-form">Enviar Mensagem</button>
-                </form>
+    document.addEventListener('mousemove', e => {
+        mx = e.clientX; my = e.clientY;
+        cursor.style.left = mx - 5 + 'px';
+        cursor.style.top = my - 5 + 'px';
+    });
 
-            </section>
+    function animateRing() {
+        rx += (mx - rx - 18) * 0.12;
+        ry += (my - ry - 18) * 0.12;
+        ring.style.left = rx + 'px';
+        ring.style.top = ry + 'px';
+        requestAnimationFrame(animateRing);
+    }
+    animateRing();
 
-            <script>
-                function enviarWhats(event) {
-                    event.preventDefault()
+    document.querySelectorAll('a, button, .skill-card, .project-card, .stat-card').forEach(el => {
+        el.addEventListener('mouseenter', () => {
+            cursor.style.transform = 'scale(2)';
+            ring.style.transform = 'scale(1.4)';
+            ring.style.opacity = '0.3';
+        });
+        el.addEventListener('mouseleave', () => {
+            cursor.style.transform = 'scale(1)';
+            ring.style.transform = 'scale(1)';
+            ring.style.opacity = '0.6';
+        });
+    });
 
-                    const nome = document.getElementById('nome').value;
-                    const mensagem = document.getElementById('mensagem').value;
-                    const telefone = '5561998254253'
+    // Scroll progress line
+    window.addEventListener('scroll', () => {
+        const scrolled = window.scrollY;
+        const total = document.body.scrollHeight - window.innerHeight;
+        document.getElementById('scrollLine').style.width = (scrolled / total * 100) + '%';
 
-                    const texto = `Olá! Me chamo ${nome}, ${mensagem}`
-                    const msgFormatada = encodeURIComponent(texto)
+        // Navbar scroll
+        const nav = document.getElementById('navbar');
+        nav.classList.toggle('scrolled', scrolled > 60);
+    });
 
-                    const url = `https://wa.me/${telefone}?text=${msgFormatada}`
+    // Fade-up on scroll
+    const fadeEls = document.querySelectorAll('.fade-up');
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach((entry, i) => {
+            if (entry.isIntersecting) {
+                setTimeout(() => entry.target.classList.add('visible'), i * 80);
+            }
+        });
+    }, { threshold: 0.1 });
+    fadeEls.forEach(el => observer.observe(el));
 
-                    window.open(url, '_blank')
-                }
+    // WhatsApp
+    function enviarWhats() {
+        const nome = document.getElementById('nome').value || 'Visitante';
+        const mensagem = document.getElementById('mensagem').value;
+        if (!mensagem) { alert('Por favor, escreva uma mensagem!'); return; }
+        const texto = `Olá! Me chamo ${nome}. ${mensagem}`;
+        window.open(`https://wa.me/5561998254253?text=${encodeURIComponent(texto)}`, '_blank');
+    }
 
-            </script>
+    // Hero fade-in on load
+    document.querySelector('.hero-left').style.animation = 'heroFadeIn 0.9s ease forwards';
+    document.querySelector('.hero-right').style.animation = 'heroFadeIn 0.9s 0.2s ease forwards';
+    document.querySelector('.hero-left').style.opacity = '0';
+    document.querySelector('.hero-right').style.opacity = '0';
 
-            <!-- RODAPÉ -->
-
-            <footer class="footer footer-bloco">
-                <div class="footer-container container grade">
-                    <div>
-                        <h1 class="footer-nome">Gustavo Barbosa</h1>
-                    </div>
-
-                    <ul class="footer-links">
-                        <li>
-                            <a href="#sobre" class="footer-links">Sobre mim</a>
-                        </li>
-                        <li>
-                            <a href="#projetos" class="footer-links">Projetos</a>
-                        </li>
-                        <li>
-                            <a href="#contatos" class="footer-links">Contatos</a>
-                        </li>
-                    </ul>
-
-                    <div class="footer-social-links">
-                        <a href="https://github.com/gustavob63" target="_blank">
-                            <img src="icones/github.svg" alt="GitHub">
-                        </a>
-
-                        <a href="https://www.linkedin.com/in/gustavo-barbosa-436b25351" target="_blank">
-                            <img src="icones/linkedin.svg" alt="LinkedIn">
-                        </a>
-
-                        <a href="mailto:gustavobs071@gmail.com?subject=Contato%20Portfólio" target="_blank">
-                            <img src="icones/e-mail.png" alt="Email">
-                        </a>
-                    </div>
-                </div>
-            </footer>
-
-            <!-- FINAL -->
-
-            <section class="secao-final">
-                <div class="texto-final">
-                    <p>© gustavobarbosa</p>
-                </div>
-            </section>
+    const style = document.createElement('style');
+    style.textContent = `
+        @keyframes heroFadeIn {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    `;
+    document.head.appendChild(style);
+</script>
 
 </body>
-
 </html>
